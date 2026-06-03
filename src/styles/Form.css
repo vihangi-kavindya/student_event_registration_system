@@ -1,0 +1,126 @@
+.form-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #1e3a8a;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1e3a8a;
+  padding-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.invalid {
+  border: 2px solid red !important;
+}
+
+.valid {
+  border: 2px solid green !important;
+}
+
+.counter {
+  text-align: right;
+  color: #666;
+  font-size: 13px;
+}
+
+.password-strength {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.password-strength.weak {
+  color: red;
+}
+
+.password-strength.medium {
+  color: orange;
+}
+
+.password-strength.strong {
+  color: green;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.submit-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #1d4ed8;
+}
+
+.reset-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #b91c1c;
+}

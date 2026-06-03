@@ -1,0 +1,75 @@
+/* Success Message */
+
+.success-message {
+  margin-top: 20px;
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #10b981;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Submitted Details Card */
+
+.submitted-details {
+  max-width: 900px;
+  margin: 25px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.submitted-details h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.value {
+  color: #333;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .detail-row {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .submitted-details {
+    padding: 15px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .submit-btn,
+  .reset-btn {
+    width: 100%;
+  }
+}
